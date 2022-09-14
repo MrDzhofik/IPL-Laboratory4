@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../CSS/lr4.css" rel="stylesheet">
+    <script src="../JS/lr4.js" type="text/javascript"></script>
+    <title>Симулятор рынка</title>
+</head>
+
+<body>
+    <div class="form">
+        <form class="product">
+            <label for="name" class="for_add">Наименование</label> <br />
+            <input type="text" class="add" id="name" name="name" placeholder="Мандарины"> <br />
+            <label for="price" class="for_add">Стоимость</label> <br />
+            <input type="number" class="add" id="price" name="price" placeholder="120"> <br />
+            <input type="submit" value="Добавить" class="submit_input" onclick="add_data()"></input>
+
+
+        </form>
+    </div>
+
+    <div class="product_table">
+        <table class="products" id="products" border="1">
+            <thead>
+                <tr class="table_head">
+                    <th>ID</th>
+                    <th>Наименование</th>
+                    <th>Стоимость</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>

@@ -17,13 +17,12 @@
             <input type="text" class="add" id="name" name="name" placeholder="Мандарины"> <br />
             <label for="price" class="for_add">Стоимость</label> <br />
             <input type="number" class="add" id="price" name="price" placeholder="120"> <br />
-            <input type="submit" value="Добавить" class="submit_input" onclick="add_data()"></input>
-
-
         </form>
+        <button class="add_button" onclick="add_data()">Добавить</button>
     </div>
 
     <div class="product_table">
+        <p class="text">Список продуктов</p>
         <table class="products" id="products" border="1">
             <thead>
                 <tr class="table_head">
@@ -36,6 +35,24 @@
 
             </tbody>
         </table>
+    </div>
+    <div class="bin_table">
+        <p class="text" id="bin_text">Корзина</p>
+        <table class="bin" id="bin" border="1">
+            <thead>
+                <tr class="table_head">
+                    <th>Наименование</th>
+                    <th>Стоимость</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+
+    <div class="sum">
+        <p id="sum">Сумма: 0 ₽</p>
     </div>
 </body>
 

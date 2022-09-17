@@ -2,21 +2,29 @@
     position: fixed;
 }
 
+.text {
+    position: fixed;
+    top: 1%;
+    right: 56%;
+    font-family: cursive;
+    font-size: 30px;
+}
+
 .products {
     position: fixed;
-    top: 5%;
-    right: 10%;
+    top: 8%;
+    right: 50%;
     border: 2px solid;
     height: fit-content;
     width: 25em;
     text-align: center;
 }
 
-.submit_input:hover {
+.add_button:hover {
     background-color: #45a049;
 }
 
-.submit_input {
+.add_button {
     width: 100%;
     background-color: #4CAF50;
     color: white;
@@ -37,6 +45,28 @@
 }
 
 .for_add {
+    font-family: cursive;
+    font-size: 25px;
+}
+
+.bin {
+    position: fixed;
+    top: 8%;
+    right: 16%;
+    border: 2px solid;
+    height: fit-content;
+    width: 25em;
+    text-align: center;
+}
+
+#bin_text {
+    right: 25%;
+}
+
+.sum {
+    position: fixed;
+    bottom: 10%;
+    right: 25%;
     font-family: cursive;
     font-size: 25px;
 }

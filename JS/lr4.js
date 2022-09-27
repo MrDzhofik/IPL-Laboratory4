@@ -66,6 +66,7 @@ function delete_from_bin(elem) {
         }
         else {
             bin_body.deleteRow(index);
+            break;
         }
     }
     show_sum();
